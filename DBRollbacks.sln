@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "db-rollbacks", "db-rollbacks\db-rollbacks.sqlproj", "{06610E71-1F2F-402D-9CEA-20091A6177C8}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DBRollbacks", "db-rollbacks\DBRollbacks.sqlproj", "{06610E71-1F2F-402D-9CEA-20091A6177C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBRollbacks.SqlTests", "DBRollbacks.SqlTests\DBRollbacks.SqlTests.csproj", "{5A9E8056-3D1E-4FE6-8925-6792FC6F1B4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ps-config", "ps-config", "{6808DF2E-136C-4990-A0C0-B463C5BE6A0E}"
+	ProjectSection(SolutionItems) = preProject
+		ps-config\DBRollbacks.psd1 = ps-config\DBRollbacks.psd1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +24,10 @@ Global
 		{06610E71-1F2F-402D-9CEA-20091A6177C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06610E71-1F2F-402D-9CEA-20091A6177C8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{06610E71-1F2F-402D-9CEA-20091A6177C8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5A9E8056-3D1E-4FE6-8925-6792FC6F1B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9E8056-3D1E-4FE6-8925-6792FC6F1B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9E8056-3D1E-4FE6-8925-6792FC6F1B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9E8056-3D1E-4FE6-8925-6792FC6F1B4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
