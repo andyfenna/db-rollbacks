@@ -19,7 +19,7 @@
       @{
          IncludeCompositeObjects=$false
          Server="."
-         ConnectionString="Server=.;Database=DBRollbacks;connection timeout=6000;Integrated Security=SSPI;"
+         Database="DBRollbacks"
          SSIS = @(
             @{
                Server="."
@@ -40,7 +40,7 @@
       @{
          IncludeCompositeObjects=$false
          Server="dev-sql-01"
-         ConnectionString="Server=dev-sql-01;Database=DBRollbacks;connection timeout=6000;Integrated Security=SSPI;"
+         Database="DBRollbacks"
          SSIS = @(
             @{
                Server="dev-sql-01"
@@ -61,7 +61,7 @@
       @{
          IncludeCompositeObjects=$false
          Server="dev-sql-02"
-         ConnectionString="Server=dev-sql-02;Database=DBRollbacks;connection timeout=6000;Integrated Security=SSPI;"
+         Database="DBRollbacks"
          SSIS = @(
             @{
                Server="dev-sql-02"
@@ -78,11 +78,11 @@
          )
        }
    ); 
-    Live = @(
+   Live = @(
       @{
          IncludeCompositeObjects=$false
          Server="BI-SQL-01"
-         ConnectionString="Server=BI-SQL-01;Database=DBRollbacks;connection timeout=6000;Integrated Security=SSPI;"
+         Database="DBRollbacks"
          SSIS = @(
             @{
                Server="PROD-SQLMON-UKF"
